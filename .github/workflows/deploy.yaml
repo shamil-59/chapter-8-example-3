@@ -26,10 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      VERSION: ${{ github.sha }}
-      CONTAINER_REGISTRY: ${{ secrets.CONTAINER_REGISTRY }}
-      REGISTRY_UN: ${{ secrets.REGISTRY_UN }}
-      REGISTRY_PW: ${{ secrets.REGISTRY_PW  }}
+      VERSION: 1
+      CONTAINER_REGISTRY: shmlmr
+      REGISTRY_UN: shmlmr
+      REGISTRY_PW: c776nJ9z1UXzU2pY/9fOsJDFALMpAVotZOSC3yMuE4+ACRD60LzH
 
     steps:
       
